@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dynamic Checkboxes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="h1">Dynamic Checkboxes with JavaScript</h1>
+        <p class="tooltip">Shift + Click to select checkboxes between previously checked and last checked</p>
+
+        <button class="js-clear">Clear <span></span> checked</button>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th align="left"><input type="checkbox" class="js-select-all" />
+                    </th>
+                    <th align="left">Publish?</th>
+                    <th align="left">Author</th>
+                    <th align="left">Created at</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>
+                        <div class="published">
+                            <input type="checkbox" id="1"/>
+                            <label class="title" for="1">My first blog post</label>
+                        </div>
+                    </td>
+                    <td>Andy</td>
+                    <td>August 23, 2019</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>
+                        <div class="published">
+                        <input type="checkbox" id="2"/>
+                        <label class="title" for="2">My second blog post</label>
+                        </div>
+                    </td>
+                    <td>Randy</td>
+                    <td>August 22, 2019</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>
+                        <div class="published">
+                        <input type="checkbox" id="3" />
+                        <label class="title" for="3"> My third blog post</label>
+                        </div>
+                    </td>
+                    <td>John</td>
+                    <td>August 21, 2019</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>
+                        <div class="published">
+                        <input type="checkbox" id="4"/>
+                        <label class="title" for="4">My fourth blog post</label>
+                        </div>
+                    </td>
+                    <td>Jane</td>
+                    <td>August 20, 2019</td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>
+                        <div class="published">
+                        <input type="checkbox" id="5"/>
+                        <label class="title" for="5">My fifth blog post</label>
+                        </div>
+                    </td>
+                    <td>Ryan</td>
+                    <td>August 19, 2019</td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td>
+                        <div class="published">
+                        <input type="checkbox" id="6"/>
+                        <label class="title" for="6">My sixth blog post</label>
+                        </div>
+                    </td>
+                    <td>Nicole</td>
+                    <td>August 18, 2019</td>
+                </tr>
+                <tr>
+                    <td>7.</td>
+                    <td>
+                        <div class="published">
+                        <input type="checkbox" id="7"/>
+                        <label class="title" for="7">My seventh blog post</label>
+                        </div>
+                    </td>
+                    <td>Nicole</td>
+                    <td>August 18, 2019</td>
+                </tr>
+                <tr>
+                    <td>8.</td>
+                    <td>
+                        <div class="published">
+                        <input type="checkbox" id="8"/>
+                        <label class="title" for="8">My eight blog post</label>
+                        </div>
+                    </td>
+                    <td>Nicole</td>
+                    <td>August 18, 2019</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
